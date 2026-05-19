@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "CursedTimer";
+    src: url("CursedTimerUlil-Aznm.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h3 {
+    color: #fff;
+    font-size: 2rem;
+    margin: 20px 0 5px 0;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%; 
+    gap: 40px;
+}
+
+.container {
+    display: flex;
+    background: #1B244A;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.home-team-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    width: 160px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#home-team-points{
+    font-family: "CursedTimer", sans-serif;
+    color: #F94F6D;
+    font-size: 5rem;
+    margin: 0;
+    padding-top: 10%;
+    text-shadow: 0 0 10px red;
+}
+
+.guest-team-screen {
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    background: black;
+    width: 160px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#guest-team-points{
+    font-family: "CursedTimer", sans-serif;
+    color: #F94F6D;
+    font-size: 5rem;
+    margin: 0;
+    padding-top: 10%;
+    text-shadow: 0 0 10px red;
+}
+
+.reset-game {
+    align-self: flex-end;
+    padding-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+button {
+    font-family: "CursedTimer", sans-serif;
+    background: none;
+    padding: 10px;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+}
+
+button:hover {
+    box-shadow: 0 0 5px white;
+}
+
+.top-score {
+    color: #9CF94F !important;
+    text-shadow: 0 0 10px #9CF94F !important;
+}
+
+button:focus, button.__focus {
+  outline: 2px solid #dfdfdf;
+}
