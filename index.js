@@ -62,3 +62,12 @@ function resetGamePoints() {
   guestPointsNum.textContent = guestPoints
   highlightTopScore()
 }
+
+
+window.add1PointsHome = add1PointsHome;
+window.add2PointsHome = add2PointsHome;
+window.add3PointsHome = add3PointsHome;
+window.add1PointsGuest = add1PointsGuest;
+window.add2PointsGuest = add2PointsGuest;
+window.add3PointsGuest = add3PointsGuest;
+window.resetGamePoints = resetGamePoints;
